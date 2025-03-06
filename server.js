@@ -35,6 +35,11 @@ mongoose
     console.error("MongoDB connection error:", error);
   });
 
+// Default route
+app.get("/", (req, res) => {
+  res.send("Server is live!");
+});
+
 // Routes
 app.use("/api/auth", require("./routes/auth"));
 // API endpoint to fetch mock data
