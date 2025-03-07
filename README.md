@@ -122,7 +122,6 @@ This is the backend server for the Vue Dashboard application. It is built using 
 - [express](https://www.npmjs.com/package/express): Web framework for Node.js.
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken): Library for generating and verifying JSON Web Tokens.
 - [mongoose](https://www.npmjs.com/package/mongoose): MongoDB object modeling tool.
-- [mysql2](https://www.npmjs.com/package/mysql2): MySQL client for Node.js.
 
 ## License
 
